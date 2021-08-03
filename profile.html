@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stephen Getter: Portfolio</title>
+  <meta charset="utf-8">
+  <style>
+    a {
+        padding: 10px;
+    }    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the header */
+    header {
+      padding: 30px;
+      text-align: center;
+      font-size: 35px;
+    }
+    
+    nav {
+        background-color: rgb(226, 226, 253);
+        padding: 30px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+    /* Container for flexboxes */
+    section {
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    /* Style the section menu */
+    article {
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      padding: 20px;
+    }
+        
+    /* Style the content */
+    aside {
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+      background-color: rgb(78, 78, 182);
+      padding: 10px;
+      color: white;
+    }
+    
+    /* Style the footer */
+    footer {
+      background-color: rgb(226, 226, 253);
+      padding: 30px;
+      text-align: left;
+      color: darkblue;
+    }
+    
+    /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+    @media (max-width: 700px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+    </style>
+</head>
+<body>
+<header>
+    <img src="StephenSpeech_sm.jpg" alt="Speaking at Hult Shanghai">  
+    <h1>STEPHEN GETTER</h1>
+    <h3>Profile in Brief</h3>
+</header>  
+<nav>
+    <a href="https://codingtemple.com/">Coding Temple</a>
+    <a href="https://www.linkedin.com/in/stephengetter/">LinkedIn</a>
+    <a href="https://www.youtube.com/channel/UCle6do0bkCDa_YjfFJWI1rg">Youtube</a>
+</nav>
+<section>
+    <article>
+        <img src="StephenShanghai_sm.jpg" alt="Stephen In China">
+        <p>NOW</p>
+        <p>I am currently in a coding bootcamp at Coding Temple!</p>
+        <p>It's time to get back into the kind of technology that I have previously been familiar with and enjoy!</p>
+        <p>Also, hoping to return to China or Japan when I can. Truly enjoyed Fukuoka, and loved the year I spent earning my MBA in Shanghai!</p>
+    </article>
+    <article>
+        <img src="rpi_pcb2_sm.jpg" alt="Printed Circuit Board for Cameras">
+        <p>BACK WHEN</p>
+        <p>I have worked in many jobs and worn many hats over the years.</p>
+        <p>Most recently, I have been a co-founder of a startup that makes HD Cameras for use in conjunction with autonomous and ADAS vehicles.</p>
+        <p>Concurrently, I have been the owner and proprietor of Getter Transportation LLC, which provides transportation services in the gig economy.</p>
+    </article>
+    <aside>
+        <img src="minecraft_deathstar_sm.jpg" alt="Mega-build Deathstar in Survival">
+        <p>ON THE SIDE</p>
+
+        <p>I have many hobbies, including:
+            <ul>
+                <li>learning about various Asian cultural phenomena - especially concentrating on Korean culture at this time.</li>
+                <li>Playing board games and video games - I build mega structures in Minecraft Survival Mode.</li>
+                <li>Playing chess - I just started playing regularly again last year after essentailly 20 years hiatus.</li>
+                <li>Also, I have acquired a new skill and am facinated with the process: Building printed curcuit boards (PCBs).</li>
+            </ul> 
+        </p>
+    </aside>
+</section>
+<footer>
+<p>Where do we go from here? (Quick Poll)</p>
+<ul>
+    <li><input type="radio">I'm happy to just get back to 'normal'</li>
+    <li><input type="radio">Keep Moving! Onward and upward!</li>
+    <li><input type="radio">To infinity and beyond!</li>
+</ul>
+</footer>
+</body>
+</html>
